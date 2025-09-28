@@ -12,15 +12,17 @@ body {
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 .timer {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: 'Orbitron', sans-serif;
   margin-bottom: 40px;
 }
 
 .main-btn {
-  width: 200px;
-  height: 200px;
-  font-size: 1.5rem;
+  width: 300px;
+  height: 300px;
+  font-size: 1.8rem;
   background-color: #007bff;
   color: white;
   border: none;
@@ -28,13 +30,16 @@ body {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transition: background 0.2s;
+  transition: background 0.3s;
 }
 
 .main-btn:hover {
   background-color: #0056b3;
 }
 
+.main-btn:active { 
+  transform: scale(0.94);
+}
 .sub-buttons {
   margin-top: 30px;
 }
