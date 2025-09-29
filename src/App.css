@@ -12,6 +12,12 @@ body {
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.stay-hard {
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 .timer {
   font-size: 6rem;
@@ -57,3 +63,4 @@ body {
 .sub-btn:hover {
   background-color: #999;
 }
+

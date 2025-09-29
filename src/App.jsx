@@ -38,6 +38,9 @@ function App() {
 
   return (
     <div className="container">
+
+      <h1 className="stay-hard">STAY HARD!</h1>
+
       <h1 className="timer">{formatTime(time)}</h1>
 
       {/* 中央に大きな丸ボタン */}
